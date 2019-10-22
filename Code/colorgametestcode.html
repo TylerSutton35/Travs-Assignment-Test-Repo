@@ -1,27 +1,43 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Todo List</title>
-	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="assets/css/todos.css">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-	<script type="text/javascript" src="Assets/js/lib/jquery-3.4.1.min.js"></script>
-</head>
-<body>
+	<head>
+		<title>Todo List</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" type="text/css" href="assets/css/todos.css" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+		/>
+		<script
+			type="text/javascript"
+			src="Assets/js/lib/jquery-3.4.1.min.js"
+		></script>
+	</head>
+	<body style="margin: 0; padding: 0;">
+		<div
+			style="background-color: rgba(255, 89, 0, 0.515); height: 100vh;"
+			id="container"
+		>
+			<h1>To-Do List <i class="fas fa-pencil-alt"></i></h1>
+			<input type="text" placeholder="Add New To-Do" />
 
-<div id="container">
-	<h1>To-Do List <i class="fas fa-pencil-alt"></i></h1>
-	<input type="text" placeholder="Add New To-Do">
+			<ul>
+				<li>
+					<span><i class="fas fa-trash"></i></span>1
+				</li>
+				<li>
+					<span><i class="fas fa-trash"></i></span>2
+				</li>
+				<li>
+					<span><i class="fas fa-trash"></i></span>3
+				</li>
+			</ul>
+		</div>
 
-	<ul>
-		<li><span><i class="fas fa-trash"></i></span>1</li>
-		<li><span><i class="fas fa-trash"></i></span>2</li>
-		<li><span><i class="fas fa-trash"></i></span>3</li>
-	</ul>
-</div>
-
-
-
-<script type="text/javascript" src="Assets/js/todos.js"></script>
-</body>
+		<script type="text/javascript" src="Assets/js/todos.js"></script>
+	</body>
 </html>
